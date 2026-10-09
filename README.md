@@ -29,6 +29,6 @@ Danach funktionieren URLs wie:
 2. In GitHub unter `Settings -> Pages` als Source `Deploy from a branch` wählen.
 3. Branch `master` oder `main` und Folder `/root` auswählen.
 4. Unter `Custom domain` `redirect.kmxlabs.de` eintragen.
-5. DNS für `redirect.kmxlabs.de` als `CNAME` auf `<github-user>.github.io` setzen.
+5. DNS für `redirect.kmxlabs.de` als `CNAME` auf `notkolja.github.io` setzen.
 
 Die Datei `CNAME` ist bereits enthalten, damit GitHub Pages die Domain nach Deployments behält.
