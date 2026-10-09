@@ -4,6 +4,6 @@ window.REDIRECT_CONFIG = {
     title: "Winter Retreat"
   },
 
-  "/website": "https://kmxlabs.de",
+  //"/website": "https://kmxlabs.de",
   // "/contact": "mailto:hello@kmxlabs.de?subject=Kontakt"
 };
