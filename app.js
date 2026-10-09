@@ -41,7 +41,7 @@
   var manualLink = document.getElementById("manual-link");
   manualLink.href = target;
   manualLink.textContent = "hier klicken";
-  fallback.textContent = target;
+ // fallback.textContent = target;
 
   window.setTimeout(function () {
     window.location.replace(target);
