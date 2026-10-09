@@ -26,8 +26,8 @@ Danach funktionieren URLs wie:
 ## GitHub Pages Setup
 
 1. Repository zu GitHub pushen.
-2. In GitHub unter `Settings -> Pages` als Source `Deploy from a branch` wählen.
-3. Branch `master` oder `main` und Folder `/root` auswählen.
+2. In GitHub unter `Settings -> Pages` als Source `GitHub Actions` wählen.
+3. Der Workflow `.github/workflows/pages.yml` deployed automatisch bei jedem Push auf `master`.
 4. Unter `Custom domain` `redirect.kmxlabs.de` eintragen.
 5. DNS für `redirect.kmxlabs.de` als `CNAME` auf `notkolja.github.io` setzen.
 
